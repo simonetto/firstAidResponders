@@ -15,11 +15,17 @@
   },
   "dependencies": {
     "gatsby": "^2.20.12",
+    "gatsby-plugin-react-helmet": "^3.3.0",
+    "gatsby-plugin-sass": "^2.2.1",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@hot-loader/react-dom": "^16.13.0",
+    "prettier": "^1.19.1",
+    "resolve-url-loader": "^3.1.1"
   },
   "repository": {
     "type": "git",
