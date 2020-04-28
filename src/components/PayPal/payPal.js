@@ -3,7 +3,7 @@ import './payPal.scss';
 
 function PayPal() {
     return (
-        <button>PayPal</button>
+        <div className="paypal">PayPal</div>
     );
 }
 
