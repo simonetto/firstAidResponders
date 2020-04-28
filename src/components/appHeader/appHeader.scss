@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+header {
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 5em;
+    }
+
+    div {
+        justify-content: space-evenly;
+        align-self: stretch;
+        margin-left: 2.5em;
+    }
+
+    h1 {
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+}
