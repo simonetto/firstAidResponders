@@ -1,0 +1,68 @@
+main {
+    color: $main-color;
+
+    .wrapper {
+        flex-direction: column;
+        padding-top: 10.5em;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+
+        img {
+            color: $icons-bg;
+        }
+    }
+
+    .about-us {
+        p {
+            margin: 0.5em 0;
+            font-size: 0.9em;
+
+            b {
+                font-weight: bold;
+            }
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+
+            img {
+                height: 9em;
+            }
+        }
+    }
+
+    .main-section {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 2em 0;
+        }
+    }
+
+    .contact {
+        cursor: pointer;
+        margin: 1em;
+
+        img {
+            height: 3em;
+        }
+    }
+
+    .go-fund-me {
+        margin: 3em 0 5em 0;
+    }
+}

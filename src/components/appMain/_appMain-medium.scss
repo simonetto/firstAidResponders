@@ -1,0 +1,18 @@
+main {
+    section {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .about-us .images img {
+        height: auto;
+    }
+
+    #volunteer {
+        flex-direction: row;
+    }
+
+    .inner-wrapper {
+        width: 50%;
+    }
+}
