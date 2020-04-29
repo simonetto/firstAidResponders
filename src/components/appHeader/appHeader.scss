@@ -1,25 +1,7 @@
 @import "../../styles/variables";
 
-header {
-    display: flex;
-    align-items: center;
+@import 'appHeader-defaults';
 
-    img {
-        height: 5em;
-    }
-
-    div {
-        justify-content: space-evenly;
-        align-self: stretch;
-        margin-left: 2.5em;
-    }
-
-    h1 {
-        font-size: 1.3em;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 0.9em;
-    }
+@media only screen and (min-width: $break-point) {
+    @import 'appHeader-medium';
 }

@@ -1,0 +1,33 @@
+header {
+    display: flex;
+
+    .main-header {
+        display: flex;
+
+        img {
+            height: 5em;
+            margin: $side-margins 0 0.5em 0;
+        }
+
+        .title {
+            justify-content: space-around;
+            align-self: stretch;
+            margin: $side-margins 0 0.5em 2.5em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 0.9em;
+        }
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+}

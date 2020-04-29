@@ -6,19 +6,20 @@ class AppNav extends React.Component {
     constructor(props) {
         super(props);
 
-        this.handleNext = this.handleNext.bind(this);
+        this.scrollTo = this.scrollTo.bind(this);
     }
 
-    handleNext() {
-        console.log("pressed")
+    scrollTo(hash) {
+        const element = document.getElementById(hash);
+        element.scrollIntoView({behavior: 'smooth'});
     }
 
     render() {
         return (
-            <nav className="blue">
-                <Button label="Home" logo="logo" handler={this.handleNext} />
-                <Button label="Volunteer" logo="logo" handler={this.handleNext} />
-                <Button label="Donate" logo="logo" handler={this.handleNext} />
+            <nav>
+                <Button label="Home" logo="logo" handler={() => this.scrollTo('home')} />
+                <Button label="Volunteer" logo="logo" handler={() => this.scrollTo('volunteer')} />
+                <Button label="Donate" logo="logo" handler={() => this.scrollTo('donate')} />
             </nav>
         );
     }
