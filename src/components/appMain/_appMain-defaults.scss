@@ -22,7 +22,8 @@ main {
 
     .about-us {
         p {
-            margin: 1em 0;
+            line-height: 110%;
+            margin: 0.75em 0;
             font-size: 0.9em;
 
             b {
@@ -64,6 +65,10 @@ main {
         h1 {
             font-size: 2em;
             margin: 2em 0;
+        }
+
+        h2 {
+            line-height: 110%;
         }
     }
 
