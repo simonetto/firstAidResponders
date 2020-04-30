@@ -5,3 +5,7 @@
 @media only screen and (min-width: $break-point) {
     @import 'appHeader-medium';
 }
+
+@media only screen and (max-width: $x-small-break-point) {
+    @import 'appHeader-x-small';
+}

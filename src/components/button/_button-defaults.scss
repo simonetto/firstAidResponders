@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9em;
+
+    svg {
+        height: 3em;
+        margin-bottom: 0.5em;
+
+        path {
+            fill: white;
+        }
+    }
+
+}

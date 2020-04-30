@@ -2,6 +2,14 @@ main {
     section {
         flex-direction: row-reverse;
         justify-content: space-around;
+
+        svg {
+            height: 20em;
+        }
+    }
+
+    .main-section h1 {
+        margin: 1em 0;
     }
 
     .about-us .images img {
@@ -14,5 +22,9 @@ main {
 
     .inner-wrapper {
         width: 50%;
+    }
+
+    .about-us p {
+        font-size: 1em;
     }
 }

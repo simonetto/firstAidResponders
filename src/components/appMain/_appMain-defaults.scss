@@ -3,7 +3,7 @@ main {
 
     .wrapper {
         flex-direction: column;
-        padding-top: 10.5em;
+        padding-top: 12em;
     }
 
     section {
@@ -11,8 +11,12 @@ main {
         flex-direction: column;
         margin: 1em 0;
 
-        img {
-            color: $icons-bg;
+        svg {
+            height: 10em;
+
+            path {
+                fill: $icons-bg !important;
+            }
         }
     }
 
@@ -29,6 +33,7 @@ main {
         .images {
             display: flex;
             justify-content: space-around;
+            margin-bottom: 1.5em;
 
             img {
                 height: 9em;
@@ -55,14 +60,23 @@ main {
 
     .contact {
         cursor: pointer;
-        margin: 1em;
+        margin: 1em 0;
+
+        svg {
+            height: 3em;
+        }
 
         img {
             height: 3em;
+            margin: 0.5em 0;
         }
     }
 
     .go-fund-me {
         margin: 3em 0 5em 0;
+    }
+
+    #donate {
+        margin-bottom: 5em;
     }
 }

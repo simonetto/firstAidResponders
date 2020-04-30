@@ -17,9 +17,9 @@ class AppNav extends React.Component {
     render() {
         return (
             <nav>
-                <Button label="Home" logo="logo" handler={() => this.scrollTo('home')} />
-                <Button label="Volunteer" logo="logo" handler={() => this.scrollTo('volunteer')} />
-                <Button label="Donate" logo="logo" handler={() => this.scrollTo('donate')} />
+                <Button label="Home" logo="home.svg" handler={() => this.scrollTo('home')} />
+                <Button label="Volunteer" logo="contact.svg" handler={() => this.scrollTo('volunteer')} />
+                <Button label="Donate" logo="donate.svg" handler={() => this.scrollTo('donate')} />
             </nav>
         );
     }

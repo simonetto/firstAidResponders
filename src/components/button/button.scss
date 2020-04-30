@@ -1,8 +1,7 @@
 @import "../../styles/variables";
 
+@import 'button-defaults';
 
-.button {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
+@media only screen and (min-width: $break-point) {
+    @import 'button-medium';
 }

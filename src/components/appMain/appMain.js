@@ -1,5 +1,6 @@
 import React from 'react';
 import GoFundMe from "../goFundMe";
+import { ReactSVG } from 'react-svg';
 import './appMain.scss';
 
 function AppMain() {
@@ -25,7 +26,7 @@ function AppMain() {
 
             <section className="main-section" id="volunteer">
                 <div className="inner-wrapper">
-                    <img src="sd" alt="volunteer" />
+                    <ReactSVG src="contact.svg" />
                 </div>
                 <div className="inner-wrapper">
                     <h1>Learn about volunteering</h1>
@@ -37,7 +38,7 @@ function AppMain() {
                     </div>
 
                     <div className="contact" onClick={onMailClick} onKeyDown={()=> {}} role="button" tabIndex="0">
-                        <img src="mail-svgrepo-com.svg" alt="e-mail" />
+                        <ReactSVG src="mail.svg" />
                         <h2>braycfr@gmail.com</h2>
                     </div>
                 </div>
@@ -45,7 +46,7 @@ function AppMain() {
 
             <section className="main-section" id="donate">
                 <div className="inner-wrapper">
-                    <img src="donate" alt="donate" />
+                    <ReactSVG src="donate.svg" />
                 </div>
                 <div className="inner-wrapper">
                     <h1>Please Donate Today</h1>
