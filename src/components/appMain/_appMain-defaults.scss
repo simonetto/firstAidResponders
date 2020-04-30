@@ -9,7 +9,7 @@ main {
     section {
         display: flex;
         flex-direction: column;
-        margin: 1em 0;
+        margin: 4em 0;
 
         svg {
             height: 10em;
@@ -22,12 +22,20 @@ main {
 
     .about-us {
         p {
-            margin: 0.5em 0;
+            margin: 1em 0;
             font-size: 0.9em;
 
             b {
                 font-weight: bold;
             }
+        }
+
+        p:first-of-type {
+            margin-top: 0;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
         }
 
         .images {
@@ -37,6 +45,7 @@ main {
 
             img {
                 height: 9em;
+                object-fit: cover;
             }
         }
     }

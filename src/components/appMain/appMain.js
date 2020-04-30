@@ -19,12 +19,12 @@ function AppMain() {
                     <p><b>We work in partnership with the National Ambulance Service</b>, a group of volunteers who live or work in Bray and help by providing an early response in the provision of primary life-saving support to people who have called 999/112 and requested an ambulance.</p>
                     <p><b>A Cardiac First Responder</b> is a person who has successfully completed a Pre Hospital Emergency Care Council (PHECC) approved Cardiac First Response course - Responder level, within the last two years.</p>
                     <p><b>New Members are welcome</b> all year round if you can only spare a few hours a month, that is plenty!</p>
-                    <p><b>Full training</b> is provided twice a year in March and September. There is monthly refresher training also.</p>
+                    <p id="volunteer"><b>Full training</b> is provided twice a year in March and September. There is monthly refresher training also.</p>
                     <p>If you can't be a responder but want to help, we need people to assist with fundraising and organisation.</p>
                 </div>
             </section>
 
-            <section className="main-section" id="volunteer">
+            <section className="main-section">
                 <div className="inner-wrapper">
                     <ReactSVG src="contact.svg" />
                 </div>
