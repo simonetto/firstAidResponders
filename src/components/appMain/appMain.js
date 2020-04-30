@@ -39,7 +39,7 @@ function AppMain() {
 
                     <div className="contact" onClick={onMailClick} onKeyDown={()=> {}} role="button" tabIndex="0">
                         <ReactSVG src="mail.svg" />
-                        <h2>braycfr@gmail.com</h2>
+                        <h2>braycfr2@gmail.com</h2>
                     </div>
                 </div>
             </section>
