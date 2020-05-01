@@ -8,10 +8,6 @@ main {
         }
     }
 
-    .main-section h1 {
-        margin: 1em 0;
-    }
-
     .about-us .images img {
         height: auto;
     }
@@ -33,6 +29,8 @@ main {
     }
 
     #donate {
+        margin-bottom: 5em;
+
         h1 {
             padding-top: 2em;
         }
