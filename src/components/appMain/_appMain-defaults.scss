@@ -69,7 +69,7 @@ main {
         }
 
         h2 {
-            line-height: 110%;
+            line-height: 130%;
         }
     }
 
@@ -91,7 +91,20 @@ main {
         margin: 3em 0 5em 0;
     }
 
-    #donate {
-        margin-bottom: 0;
+    .map {
+        .address {
+            margin-bottom: 3em;
+        }
+
+        svg {
+            width: 20em;
+        }
+    }
+
+    div.anchor {
+        display: block;
+        position: relative;
+        top: -10em;
+        visibility: hidden;
     }
 }

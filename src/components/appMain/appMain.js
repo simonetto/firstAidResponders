@@ -1,5 +1,6 @@
 import React from 'react';
-import GoFundMe from "../goFundMe";
+import GoFundMe from '../goFundMe';
+import OpenMap from '../openMap';
 import { ReactSVG } from 'react-svg';
 import './appMain.scss';
 
@@ -19,12 +20,14 @@ function AppMain() {
                     <p><b>We work in partnership with the National Ambulance Service</b>, a group of volunteers who live or work in Bray and help by providing an early response in the provision of primary life-saving support to people who have called 999/112 and requested an ambulance.</p>
                     <p><b>A Cardiac First Responder</b> is a person who has successfully completed a Pre Hospital Emergency Care Council (PHECC) approved Cardiac First Response course - Responder level, within the last two years.</p>
                     <p><b>New Members are welcome</b> all year round if you can only spare a few hours a month, that is plenty!</p>
-                    <p id="volunteer"><b>Full training</b> is provided twice a year in March and September. There is monthly refresher training also.</p>
+                    <p><b>Full training</b> is provided to volunteers who are willing to be come responders.</p>
                     <p>If you can't be a responder but want to help, we need people to assist with fundraising and organisation.</p>
+                    <p>We meet the first Thursday of every month in the Taylor hall in Bray.</p>
                 </div>
             </section>
 
-            <section className="main-section">
+            <div className="anchor" id="volunteer"></div>
+            <section className="main-section volunteer">
                 <div className="inner-wrapper">
                     <ReactSVG src="contact.svg" />
                 </div>
@@ -44,7 +47,8 @@ function AppMain() {
                 </div>
             </section>
 
-            <section className="main-section" id="donate">
+            <div className="anchor" id="donate"></div>
+            <section className="main-section donate">
                 <div className="inner-wrapper">
                     <ReactSVG src="donate.svg" />
                 </div>
@@ -54,6 +58,20 @@ function AppMain() {
                     <h2>Any amount of money helps us do our vital work</h2>
                     <h2>Donate with GoFundMe button</h2>
                     <GoFundMe />
+                </div>
+            </section>
+
+            <section className="main-section map" id="location">
+                <div className="inner-wrapper">
+                    <ReactSVG src="location-sign.svg" />
+                </div>
+                <div className="inner-wrapper address">
+                    <h1>Where We Meet</h1>
+                    <h2>We meet the first Thursday of every month in the Taylor hall in Bray.</h2>
+                    <br />
+                    <h2>Taylor Centre, Sunbeam House, Vevay Rd</h2>
+                    <h2>A98E220 Bray, County Wicklow</h2>
+                    <OpenMap />
                 </div>
             </section>
         </div>

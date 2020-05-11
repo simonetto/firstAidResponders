@@ -1,4 +1,8 @@
 main {
+    div.anchor {
+        top: -6.5em;
+    }
+
     section {
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -12,7 +16,7 @@ main {
         height: auto;
     }
 
-    #volunteer {
+    .volunteer {
         flex-direction: row;
     }
 
@@ -28,11 +32,24 @@ main {
         margin-bottom: 0;
     }
 
-    #donate {
+    .donate {
         margin-bottom: 5em;
 
         h1 {
             padding-top: 2em;
+        }
+    }
+
+    .map {
+        flex-direction: row;
+        margin-bottom: 10em;
+
+        .address {
+            margin-bottom: 0em;
+        }
+
+        h1 {
+            margin-top: 0;
         }
     }
 }

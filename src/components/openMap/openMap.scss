@@ -1,0 +1,18 @@
+@import "../../styles/variables";
+
+.open-map {
+    background-color: $icons-bg;
+    color: $header-font-color;
+    padding: 0.8em 5em;
+    font-weight: bold;
+    border-radius: 0.2em;
+    box-shadow: 2px 2px 4px 0px #888888;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    cursor: pointer;
+    margin-top: 3em;
+}
+
+.open-map:hover {
+    transition: background-color .25s ease-out,color .25s ease-out;
+    background-color: #16abac;
+}
