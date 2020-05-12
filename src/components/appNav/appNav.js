@@ -20,7 +20,7 @@ class AppNav extends React.Component {
                 <Button label="Home" logo="home.svg" handler={() => this.scrollTo('home')} />
                 <Button label="Volunteer" logo="contact.svg" handler={() => this.scrollTo('volunteer')} />
                 <Button label="Donate" logo="donate.svg" handler={() => this.scrollTo('donate')} />
-                <Button label="Where We Meet" logo="location-sign.svg" handler={() => this.scrollTo('location')} />
+                <Button label="Location" logo="location-sign.svg" handler={() => this.scrollTo('location')} />
             </nav>
         );
     }

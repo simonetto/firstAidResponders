@@ -18,11 +18,11 @@ function AppMain() {
                 </div>
                 <div className="inner-wrapper">
                     <p><b>We work in partnership with the National Ambulance Service</b>, a group of volunteers who live or work in Bray and help by providing an early response in the provision of primary life-saving support to people who have called 999/112 and requested an ambulance.</p>
-                    <p><b>A Cardiac First Responder</b> is a person who has successfully completed a Pre Hospital Emergency Care Council (PHECC) approved Cardiac First Response course - Responder level, within the last two years.</p>
+                    <p><b>A Cardiac First Responder</b> is a person who has successfully completed a Pre-Hospital Emergency Care Council (PHECC) approved Cardiac First Response course - Responder level, within the last two years.</p>
                     <p><b>New Members are welcome</b> all year round if you can only spare a few hours a month, that is plenty!</p>
-                    <p><b>Full training</b> is provided to volunteers who are willing to be come responders.</p>
+                    <p><b>Full training</b> is provided to volunteers who are willing to become responders.</p>
                     <p>If you can't be a responder but want to help, we need people to assist with fundraising and organisation.</p>
-                    <p>We meet the first Thursday of every month in the Taylor hall in Bray.</p>
+                    <p>We meet on the first Thursday of every month in the Taylor hall in Bray.</p>
                 </div>
             </section>
 
@@ -66,8 +66,8 @@ function AppMain() {
                     <ReactSVG src="location-sign.svg" />
                 </div>
                 <div className="inner-wrapper address">
-                    <h1>Where We Meet</h1>
-                    <h2>We meet the first Thursday of every month in the Taylor hall in Bray.</h2>
+                    <h1>Location</h1>
+                    <h2>We meet on the first Thursday of every month in the Taylor hall in Bray.</h2>
                     <br />
                     <h2>Taylor Centre, Sunbeam House, Vevay Rd</h2>
                     <h2>A98E220 Bray, County Wicklow</h2>
