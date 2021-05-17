@@ -56,7 +56,7 @@ function AppMain() {
                     <h1>Please Donate Today</h1>
                     <h2>As a Voluntary Organisation it's the generosity of our supporters that funds our Response to life threatening emergencies.</h2>
                     <h2>Any amount of money helps us do our vital work</h2>
-                    <h2>Donate with GoFundMe button</h2>
+                    <h2>Donate with PayPal</h2>
                     <GoFundMe />
                 </div>
             </section>

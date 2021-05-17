@@ -2,10 +2,10 @@ import React from 'react';
 import './goFundMe.scss';
 
 function GoFundMe() {
-    const onClick = () => window.open('https://www.gofundme.com/f/public-access-defibrillators-replacement-parts', '_blank');
+    const onClick = () => window.open('https://www.paypal.com/donate?hosted_button_id=S8LW8NDBQZS6W', '_blank');
 
     return (
-        <div className="go-fund-me" onClick={onClick} onKeyDown={()=> {}} role="button" tabIndex="0">GoFundMe</div>
+        <div className="go-fund-me" onClick={onClick} onKeyDown={()=> {}} role="button" tabIndex="0">PayPal</div>
     );
 }
 
